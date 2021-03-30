@@ -19,8 +19,14 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <intent-filter>
+                <action android:name="APPLI_TP5"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
         </activity>
         <activity android:name=".ShowDatabase" />
+
         <provider
             android:name=".provider.MyContentProvider"
             android:authorities="com.smb116.tp5.provider.MyContentProvider"
